@@ -11,14 +11,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Expenses"></activity>
         <activity android:name=".Account" />
-        <activity
-            android:name=".MainActivity"
+        <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LANUNCHER"/>
-            </intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        ></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

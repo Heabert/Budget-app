@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">My Budget Application</string>
+    <string-array name="Category">
+        <item>Car</item>
+        <item>Rent</item>
+        <item>Loans</item>
+        <item>Food</item>
+        <item>Tuition</item>
+        <item>Misc</item>
+        <item>Wife</item>
+    </string-array>
+
 </resources>
